@@ -106,12 +106,14 @@ main {
   gap: 34px;
 }
 article {
+  min-width: 0;
   scroll-margin-top: 86px;
   padding: clamp(26px, 5vw, 58px);
   border: 1px solid var(--line);
   border-radius: 30px;
   background: rgba(255, 255, 255, .96);
   box-shadow: var(--shadow);
+  overflow-wrap: anywhere;
 }
 .meta {
   display: inline-block;
