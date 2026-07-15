@@ -114,8 +114,8 @@ article {
   border-radius: 30px;
   background: rgba(255, 255, 255, .96);
   box-shadow: var(--shadow);
-  overflow-wrap: anywhere;
 }
+article p, article a, article code { overflow-wrap: anywhere; }
 .meta {
   display: inline-block;
   margin: 0 0 14px;
@@ -146,6 +146,7 @@ footer span { white-space: nowrap; }
   .eyebrow { font-size: .75rem; letter-spacing: .13em; }
   .trust-row { display: none; }
   article { border-radius: 22px; }
+  h2 { font-size: 1.65rem; letter-spacing: -.045em; }
 }
 
 @media (prefers-reduced-motion: reduce) {
